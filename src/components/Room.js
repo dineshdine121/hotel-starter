@@ -36,7 +36,14 @@ const Room = ({room}) => {
           <div>{maxperson}</div>
         </div>
       </div>
+
     </div>
+    </div>
+    {/*name*/}
+    <div>
+     <Link to={'/room/${id}'}>
+       <h3 className='h3'>  {name} </h3>
+     </Link>
     </div>
   </div>
   );
